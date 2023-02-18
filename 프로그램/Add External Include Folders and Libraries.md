@@ -16,4 +16,6 @@ Linker / General / Additional Libaray Directories
 
 ![image](https://user-images.githubusercontent.com/19432509/219671783-356d8cdd-adde-4aa5-af7b-8c784b92b120.png)
 
-![image](https://user-images.githubusercontent.com/19432509/219671715-e8f76fcf-4327-4f96-97db-2a550f452b8d.png)
+### 추가 종속성
+![추가 종속성](https://user-images.githubusercontent.com/19432509/219671715-e8f76fcf-4327-4f96-97db-2a550f452b8d.png)
+bmm.lib;core.lib;geom.lib;gfx.lib;mesh.lib;maxutil.lib;maxscrpt.lib;gup.lib;paramblk2.lib;%(AdditionalDependencies)
