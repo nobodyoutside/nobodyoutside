@@ -1,14 +1,17 @@
-# 원격 저장소에 올라간 커밋 되돌리기
+# git
+
+## 원격 저장소에 올라간 커밋 되돌리기
+
 https://jupiny.com/2019/03/19/revert-commits-in-remote-repository/
 
-$ git revert [되돌리고 싶은 commit의 hash]
+`$ git revert [되돌리고 싶은 commit의 hash]`
 
-
-# 두개의 리포지토리 병합하기
+## 두개의 리포지토리 병합하기
 
 메인 저장소에 대상 저장소를 원격 연결한 다음 이것 fatch로 받아서 합침
 
-> https://syki66.github.io/blog/2020/09/07/merge-repos.html
+> [출처 : syki66](https://syki66.github.io/blog/2020/09/07/merge-repos.html)
+
 ```text
 1. 레포지토리 주소 연결 및 fetch
 프로젝트2에서 아래 명령어를 입력하여, 가져올 프로젝트1의 깃 주소를 연결해주며, 동시에 fetch를 진행한다.
