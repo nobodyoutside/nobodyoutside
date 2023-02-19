@@ -11,6 +11,11 @@
 | ----       | ----                         | ----                   |      ----  |         ----  | ---- |
 |2023 (25.0) |	Windows 10 x64              | Windows 11              | 2023	Microsoft Visual Studio 2019, version 16.10.4, C++ Platform Toolset v142, Windows Platform SDK 10.0.19041.0	| .NET 4.8 |	Qt 5.15.1 |
 
+## 시스탬 경로가 잘못되어있는경우
+
+- .vcxproj 파일을 직접 열어서 수정
+- ![적용된 파일을 찾지 못해서 새로 추가](https://user-images.githubusercontent.com/19432509/219955983-bc08e61c-b651-46fe-aee7-1293073f4fd5.png)
+- `ui_plugin_form.h`파일은 `plugin_form.ui`을 컴파일해야 
 
 ## vs 프로젝트
 
