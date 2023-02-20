@@ -24,8 +24,22 @@
 ## vs 프로젝트
 
 - 일반 속성
-  -  출력 디렉토리 : <3ds Max>/plugins
-  -  플랫폼 도구 집합 : v141
+  -  출력 디렉토리 : <3ds Max>/plugins (관리자 권한 필요)
+  -  플랫폼 도구 집합 (Project Defaults) : Visual Studio 2017 (v141)
   -  대상 확장자: .dlu
   -  구성 유형: 동적 라이브러리(.DLL)
   -  문자 집합: 유니코드 문자 집합 사
+  ![General 속성 페이지](https://user-images.githubusercontent.com/19432509/220116751-e7087b30-1777-4674-b446-615857c059ba.png)
+  
+- C/C++
+  - General : Additional Include Directories : $(ADSK_3DSMAX_SDK_2023)\include;
+- Linker
+  - General : Additional Library Directories : $(ADSK_3DSMAX_SDK_2023)\lib\x64\Release;
+  - Additional Dependencies : bmm.lib;core.lib;geom.lib;gfx.lib;mesh.lib;maxutil.lib;maxscrpt.lib;gup.lib;paramblk2.lib;
+  - Module Definition File : MyTest.def
+  
+
+## 필요한 DLL 함수
+ 
+### DllMain()
+  
