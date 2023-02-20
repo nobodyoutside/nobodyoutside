@@ -67,7 +67,9 @@ __declspec( dllexport ) int LibNumberClasses()
 
 이 함수는 DLL에서 내보낸 n번째 클래스에 대한 클래스 `descriptor()`를 반환
 
-### [Class Descriptors](https://help.autodesk.com/view/MAXDEV/2023/ENU/?guid=class_descriptors)
+### [Class Descriptors]
+
+[3ds Max help](https://help.autodesk.com/view/MAXDEV/2023/ENU/?guid=class_descriptors), [Descriptors.md](.//Descriptors.md)
 
 - DLL에 구현된 각 플러그인에 대한 정보를 3ds Max에 제공
 - `ClassDesc2` 클래스 설명자에는 플러그인에 사용되는 모든 매개 변수 블록에 대한 `ParamBlockDesc2`s 표와 블록 설명자, UI 관리, 자동 매개 변수 블록2 구성 및 `ParamMap2`에 대한 액세스를 위한 다양한 방법이 포함되어 있습니다.
