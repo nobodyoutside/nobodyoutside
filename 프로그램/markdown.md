@@ -1,5 +1,7 @@
 # Markdown
 
+[문법](https://mermaid.js.org/syntax/flowchart.html)
+
 ## mermaid
 ```mermaid
   graph TD;
