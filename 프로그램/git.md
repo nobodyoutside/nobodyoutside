@@ -37,3 +37,9 @@ git remote remove 프로젝트1
 
 이후 원격 저장소로 git push를 해주면 된다.
 ```
+
+## 커밋 합치기
+
+```
+git rebase -i HEAD~2
+```
