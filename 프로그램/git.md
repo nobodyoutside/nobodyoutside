@@ -1,5 +1,18 @@
 # git
 
+## 자주 사용하는 명령어
+
+```
+git init .
+git clone "주소.git" "./폴더"
+git remote add origin "주소.git"
+git fetch
+git checkout 저장소이름
+git status
+git add 추가할_파일
+git ignore
+```
+
 ## 원격 저장소에 올라간 커밋 되돌리기
 
 https://jupiny.com/2019/03/19/revert-commits-in-remote-repository/
@@ -27,13 +40,10 @@ git merge 프로젝트1/master --allow-unrelated-histories
 
 이후 vi 에디터가 뜨게되고, 병합에 대한 커밋 메세지를 적고 나서 esc -> :wq 를 입력하고 빠져나오게 되면, 프로젝트1의 변경 이력들이 모두 병합된 것을 확인할 수 있다.
 
-
-
 3. 연결된 주소 제거
 더이상 프로젝트1의 주소가 필요 없다면 삭제해주도록 한다.
 
 git remote remove 프로젝트1
-
 
 이후 원격 저장소로 git push를 해주면 된다.
 ```
