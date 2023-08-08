@@ -16,3 +16,9 @@ https://webnautes.tistory.com/1158
 "end": "\\s&--\\s*#?endregion\\b"
 }
 ```
+
+## 기능
+
+### 대소문자 변경
+ctrl + shift + p : 대문자, case, 소문자
+![image](https://github.com/nobodyoutside/nobodyoutside/assets/19432509/9e3d6b06-d624-4523-8c3b-f5fcf9ef3f84)
