@@ -15,3 +15,6 @@ GH- 및 이슈 또는 끌어오기 요청 번호	GH-26	GH-26
 Username/Repository# 및 이슈 또는 끌어오기 요청 번호	jlord/sheetsee.js#26	jlord/sheetsee.js#26
 Organization_name/Repository# 및 이슈 또는 끌어오기 요청 번호	github/linguist#4039	github/linguist#4039
 
+## 버전 표기 방법
+
+주번호(호환성 보장), 부번호(배포 번호-패치정보 초기화), 패치번호(버그 및 기능 추가) -상태코드
